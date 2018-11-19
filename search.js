@@ -1,8 +1,5 @@
-//file system module allows to work with the file system on computer.
 var fs = require('fs');
-//
 var path = require('path');
-
 var fileType = '.' + process.argv[2];
 var subName = process.argv[3];
 
